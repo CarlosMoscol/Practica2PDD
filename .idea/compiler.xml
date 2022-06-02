@@ -9,5 +9,8 @@
         <module name="Practica2PDD" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="PC2" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
