@@ -1,9 +1,10 @@
+package Anterior.Produccion;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 public class Flight {
-
     private String id;
     private List<Passenger> passengers = new ArrayList<Passenger>();
     private String flightType;
@@ -53,5 +54,4 @@ public class Flight {
                 throw new RuntimeException("Tipo desconocido: " + flightType);
         }
     }
-
 }

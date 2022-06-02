@@ -1,5 +1,6 @@
-public class Airport {
+package Anterior.Produccion;
 
+public class Airport {
     public static void main(String[] args) {
         Flight economyFlight = new Flight("1", "Economico");
         Flight businessFlight = new Flight("2", "Negocios");

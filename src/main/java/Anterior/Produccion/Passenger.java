@@ -1,5 +1,6 @@
-public class Passenger {
+package Anterior.Produccion;
 
+public class Passenger {
     private String name;
     private boolean vip;
 
@@ -15,5 +16,4 @@ public class Passenger {
     public boolean isVip() {
         return vip;
     }
-
 }
