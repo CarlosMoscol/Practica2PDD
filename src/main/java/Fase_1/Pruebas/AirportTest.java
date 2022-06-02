@@ -12,10 +12,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class AirportTest {
 
     @DisplayName("Dado que hay un vuelo economico")
+    private
     @Nested
     class EconomyFlightTest {
-
-        private Flight economyFlight;
+ Flight economyFlight;
 
         @BeforeEach
         void setUp() {
