@@ -35,7 +35,7 @@ John la necesidad de refactorizar la aplicación porque así puede eliminar los 
 
 <!--# Fase 2-->
 
-# Refactoring the flight-management application
+# Refactorización de la aplicación gestión de vuelo
 
 Al ejecutar el AirportTest de la Fase 2 la cobertura del código es del 100% dado que se ha eliminado elementos que no se utilizaban y se añadido nuevas clases de vuelo en base a la jerarquía, están son una extensión de la clase principal Flight.
 
@@ -55,3 +55,15 @@ Se elimino la clase Airport que no sirvió para servir como cliente para las cla
 
 <!--# Fase 3-->
 <img src="https://github.com/CarlosMoscol/Practica2PDD/blob/master/PruebasImagenes/Fase3.png">
+
+
+## Pregunta 4
+
+## Pregunta 5
+
+## Pregunta 6
+
+## Pregunta 7
+
+## Pregunta 8
+
