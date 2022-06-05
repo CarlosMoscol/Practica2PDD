@@ -12,7 +12,7 @@ Cesar, un pasajero VIP, se agrego al vuelo de negocios y no pudimos eliminarlo.
 Jessica, una pasajera regular no se pudo agregar al vuelo de negocios, pero si pudimos agregarlo al vuelo económico.
 
 <!--# Fase 1-->
-# Gestion de Vuelos
+# Ejecucion de la aplicacion TDD
 ## Pregunta 1
 ### ¿Cuáles son los resultados que se muestran?
 
@@ -59,11 +59,24 @@ Se elimino la clase Airport que no sirvió para servir como cliente para las cla
 
 ## Pregunta 4
 
+### ¿En qué consiste está regla relacionada a la refactorización
+
+<!--# Fase 4-->
+<img src="https://github.com/CarlosMoscol/Practica2PDD/blob/master/PruebasImagenes/Fase3.png">
+
 ## Pregunta 5
+
+### Escribe el diseño inicial de la clase llamada PremiumFlight y agrega a la Fase 4 en la carpeta producción.
 
 ## Pregunta 6
 
+### Ayuda a John e implementa las pruebas de acuerdo con la lógica comercial de vuelos premium de las figuras anteriores. Adjunta tu código en la parte que se indica en el código de la Fase 4. Después de escribir las pruebas, John las ejecuta.
+
 ## Pregunta 7
 
+### Agrega la lógica comercial solo para pasajeros VIP en la clase PremiumFlight. Guarda ese archivo en la carpeta Producción de la Fase 5.
+
 ## Pregunta 8
+
+### Ayuda a John a crear una nueva prueba para verificar que un pasajero solo se puede agregar una vez a un vuelo. La ejecución de las pruebas ahora es exitosa, con una cobertura de código del 100 %. John ha implementado esta nueva característica en estilo TDD.
 
