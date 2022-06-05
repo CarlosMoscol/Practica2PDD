@@ -13,8 +13,6 @@ import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class AirportTest {
-
-
     // Refactorización de la clase AirportTest. Pregunta 3
     @DisplayName("Dado que hay un vuelo economico")
     @Nested
