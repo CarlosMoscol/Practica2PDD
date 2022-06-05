@@ -62,7 +62,7 @@ Se elimino la clase Airport que no sirvió para servir como cliente para las cla
 ### ¿En qué consiste está regla relacionada a la refactorización
 
 <!--# Fase 4-->
-<img src="https://github.com/CarlosMoscol/Practica2PDD/blob/master/PruebasImagenes/Fase3.png">
+<img src="">
 
 ## Pregunta 5
 
