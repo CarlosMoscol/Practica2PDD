@@ -103,3 +103,7 @@ Implementación de las pruebas de la fase 5.
 
 <img src="https://github.com/CarlosMoscol/Practica2TDD/blob/master/PruebasImagenes/Fase5_test_1.png">
 
+Testeo Final
+
+<img src="https://github.com/CarlosMoscol/Practica2TDD/blob/master/PruebasImagenes/Fase5_test_2.png">
+
