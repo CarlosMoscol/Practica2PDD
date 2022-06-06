@@ -24,3 +24,4 @@ public class PremiumFlight extends Flight {
            return false;
        }
 }
+
