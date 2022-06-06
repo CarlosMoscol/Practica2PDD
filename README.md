@@ -91,7 +91,12 @@ Resultado de las pruebas realizadas:
 
 ### Agrega la lógica comercial solo para pasajeros VIP en la clase PremiumFlight. Guarda ese archivo en la carpeta Producción de la Fase 5.
 
+Implementación inicial del código requerido de la fase4.
+
+<img src="https://github.com/CarlosMoscol/Practica2TDD/blob/master/PruebasImagenes/Fase5.png">
+
 ## Pregunta 8
 
 ### Ayuda a John a crear una nueva prueba para verificar que un pasajero solo se puede agregar una vez a un vuelo. La ejecución de las pruebas ahora es exitosa, con una cobertura de código del 100 %. John ha implementado esta nueva característica en estilo TDD.
 
+<img src="https://github.com/CarlosMoscol/Practica2TDD/blob/master/PruebasImagenes/Fase5_test_1.png">
