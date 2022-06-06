@@ -1,9 +1,6 @@
 package Fase_4.Pruebas;
 
-import Fase_4.Produccion.BusinessFlight;
-import Fase_4.Produccion.EconomyFlight;
-import Fase_4.Produccion.Flight;
-import Fase_4.Produccion.Passenger;
+import Fase_4.Produccion.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
@@ -112,7 +109,55 @@ public class AirportTest {
             }
         }
     }
-}
 
 // Completa la prueba para PremiumFlight de acuerdo a la logica comercial dada. Pregunta 6
 
+    @DisplayName("Dado que hay un vuelo de clase PREMIUM")
+    @Nested
+    class PremiumFlightTest {
+        private Flight premiumFlight;
+        private Passenger Jessica;
+        private Passenger Cesar;
+
+        @BeforeEach
+        void setUp() {
+            premiumFlight = new PremiumFlight("3");
+            Jessica = new Passenger("Jessica", false);
+            Cesar = new Passenger("Cesar", true);
+        }
+
+        @Nested
+        @DisplayName("El caso cuando se tiene a un pasajero de clase regular")
+        class RegularPassenger {
+
+            @Test
+            @DisplayName("Entonces no puedes ni añadirlo ni retirarlo del vuelo de clase premium")
+            public void testPremiumFlightRegularPassenger() {
+                assertAll("Se verifican todas las condiciones para un pasajero de clase regular y un vuelo de clase premium",
+                        () -> assertEquals(false, premiumFlight.addPassenger(Jessica)),
+                        () -> assertEquals(0, premiumFlight.getPassengersList().size()),
+                        () -> assertEquals(false, premiumFlight.removePassenger(Jessica)),
+                        () -> assertEquals(0, premiumFlight.getPassengersList().size())
+                );
+            }
+        }
+
+        @Nested
+        @DisplayName("El caso cuando el pasajero es de clase VIP")
+        class VipPassenger {
+
+            @Test
+            @DisplayName("Ya que es un VIP puedes añadirlo o removerlo del vuelvo de clase premium")
+            public void testPremiumFlightVipPassenger() {
+                assertAll("Se verifican todas las condiciones para un pasajero de clase VIP y un vuelo de clase premium",
+                        () -> assertEquals(true, premiumFlight.addPassenger(Cesar)),
+                        () -> assertEquals(1, premiumFlight.getPassengersList().size()),
+                        () -> assertEquals(true, premiumFlight.removePassenger(Cesar)),
+                        () -> assertEquals(0, premiumFlight.getPassengersList().size())
+                );
+            }
+        }
+    }
+
+
+}

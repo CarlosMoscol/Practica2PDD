@@ -61,16 +61,31 @@ Se elimino la clase Airport que no sirvió para servir como cliente para las cla
 
 ### ¿En qué consiste está regla relacionada a la refactorización
 
+La regla de tres en cuanto a programación se trata, está referido a que si un método/función o sección de código es utilizado en más de tres veces en el código entonces el programa por completo debe de refactorizarse.
+En este caso dado que el código del programa se estará utilizando en multiples instancias incluido el código de testeo del mismo por lo que se aplica la regla de tres y se procedió a realizar una refactorización.
 <!--# Fase 4-->
-<img src="">
 
 ## Pregunta 5
 
 ### Escribe el diseño inicial de la clase llamada PremiumFlight y agrega a la Fase 4 en la carpeta producción.
 
+Implementación inicial del código requerido de la fase4.
+
+<img src="https://github.com/CarlosMoscol/Practica2PDD/blob/master/PruebasImagenes/Fase4.png">
+
 ## Pregunta 6
 
 ### Ayuda a John e implementa las pruebas de acuerdo con la lógica comercial de vuelos premium de las figuras anteriores. Adjunta tu código en la parte que se indica en el código de la Fase 4. Después de escribir las pruebas, John las ejecuta.
+
+Implementación de las pruebas de acuerdo a la lógica comercial de vuelos premium agregada en la fase 4.
+
+<img src="https://github.com/CarlosMoscol/Practica2PDD/blob/master/PruebasImagenes/Fase4_test_1.png">
+
+<img src="https://github.com/CarlosMoscol/Practica2PDD/blob/master/PruebasImagenes/Fase4_test_2.png">
+
+Resultado de las pruebas realizadas:
+
+<img src="https://github.com/CarlosMoscol/Practica2PDD/blob/master/PruebasImagenes/Fase4_test_run.png">
 
 ## Pregunta 7
 
